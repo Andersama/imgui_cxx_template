@@ -13,7 +13,7 @@
 #include "imgui/imgui_impl_opengl3.h"
 //we need this to change tesselation tolerance
 #include "imgui/imgui_internal.h"
-#include "zpp_bits.h"
+#include "zpp_bits/zpp_bits.h"
 
 
 static void glfw_error_callback(int error, const char* description)
